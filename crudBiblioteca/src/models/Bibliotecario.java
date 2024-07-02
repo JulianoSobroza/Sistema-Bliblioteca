@@ -38,21 +38,21 @@ public class Bibliotecario {
 
     // Métodos para o bibliotecário
 
-    public void adicionarAluno(Biblioteca biblioteca, Aluno aluno) {
-        biblioteca.adicionarAluno(aluno);
+    public void adicionarAluno(SistemaBiblioteca sistemaBiblioteca, Aluno Aluno) {
+        sistemaBiblioteca.adicionarAluno(Aluno);
     }
 
-    public void removerAluno(Biblioteca biblioteca, Aluno aluno) {
-        biblioteca.removerAluno(aluno);
+    public void removerAluno(SistemaBiblioteca sistemaBiblioteca, Aluno Aluno) {
+        sistemaBiblioteca.removerAluno(Aluno);
     }
 
     // Métodos para adicionar e remover livros
-    public void adicionarLivro(Biblioteca biblioteca, Livro livro) {
-        biblioteca.adicionarLivro(livro);
+    public void adicionarLivro(SistemaBiblioteca sistemaBiblioteca, Livro Livro) {
+        sistemaBiblioteca.adicionarLivro(Livro);
     }
 
-    public void removerLivro(Biblioteca biblioteca, Livro livro) {
-        biblioteca.removerLivro(livro);
+    public void removerLivro(SistemaBiblioteca sistemaBiblioteca, Livro Livro) {
+        sistemaBiblioteca.removerLivro(Livro);
     }
 
     public String getId() {
